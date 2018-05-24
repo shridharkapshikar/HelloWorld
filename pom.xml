@@ -17,6 +17,16 @@
 		<connection>scm:git:git@github.com:shridharkapshikar/HelloWorld.git</connection>
 		<developerConnection>scm:git:git@github.com:shridharkapshikar/HelloWorld.git</developerConnection>
 	</scm>
+	<developers>
+		<developer>
+			<email>shridhar.kapshikar@hotmail.com</email>
+			<name>shridhar kapshikar</name>
+			<url>https://github.com/shridharkapshikar</url>
+			<id>shridharkapshikar</id>
+		</developer>
+	</developers>
+	
+
   
   <dependencies>
     <dependency>
@@ -42,4 +52,3 @@
         <finalName>CubeGeneratorWeb</finalName>
   </build>
 </project>
-
