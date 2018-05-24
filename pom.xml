@@ -12,6 +12,12 @@
   <artifactId>spring-boot-starter-parent</artifactId>
   <version>1.4.2.RELEASE</version>
   </parent>
+  <scm>
+		<url>https://github.com/shridharkapshikar/HelloWorld</url>
+		<connection>scm:git:git@github.com:shridharkapshikar/HelloWorld.git</connection>
+		<developerConnection>scm:git:git@github.com:shridharkapshikar/HelloWorld.git</developerConnection>
+	</scm>
+  
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -36,3 +42,4 @@
         <finalName>CubeGeneratorWeb</finalName>
   </build>
 </project>
+
