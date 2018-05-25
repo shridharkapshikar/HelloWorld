@@ -13,21 +13,10 @@
   <version>1.4.2.RELEASE</version>
   </parent>
   <scm>
-		<url>https://github.com/shridharkapshikar/HelloWorld</url>
-		<connection>scm:git:git@github.com:shridharkapshikar/HelloWorld.git</connection>
-		<developerConnection>scm:git:git@github.com:shridharkapshikar/HelloWorld.git</developerConnection>
-	</scm>
-	<developers>
-		<developer>
-			<email>shridhar.kapshikar@hotmail.com</email>
-			<name>shridhar kapshikar</name>
-			<url>https://github.com/shridharkapshikar</url>
-			<id>shridharkapshikar</id>
-		</developer>
-	</developers>
-	
-
-  
+                <url>https://github.com/shridharkapshikar/HelloWorld</url>
+                <connection>scm:git:git@github.com:shridharkapshikar/HelloWorld.git</connection>
+                <developerConnection>scm:git:git@github.com:shridharkapshikar/HelloWorld.git</developerConnection>
+        </scm>
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -48,7 +37,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.6</version>
             </plugin>
-        </plugins>
+        
         <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-release-plugin</artifactId>
@@ -56,6 +45,7 @@
         <pushChanges>false</pushChanges>
     </configuration>
         </plugin>
+		</plugins>
         <finalName>CubeGeneratorWeb</finalName>
   </build>
 </project>
